@@ -1,0 +1,304 @@
+/*CONFIGURACIONES GENERALES*/
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+/* DISEÑO HEADER */
+.banner{
+        background: url(banner.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 280px;
+        
+    }   
+.logo{
+        height: 100px;
+        width: 100px;
+        padding: 5px;
+        
+    }
+
+h1 {
+        background: black;
+        color: white;
+        width: 100%;
+        font-weight: bold;
+        font-size: 150%;
+        text-align: center;
+    }
+
+.area_btt{
+        background: gray;
+        width: 100%;
+        height: 60px;
+        border-bottom: 5px solid black;
+   } 
+
+.botones{
+        
+        color: white;
+        padding: 19px;
+        text-align: center;
+      
+    }
+
+.bt1 {
+        border: 3px solid black;
+        background: lightgray;
+        color: black;
+        padding: 6px;
+        box-shadow: 6px 6px 6px black;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-decoration: none;
+    }
+
+.bt2 {
+        border: 3px solid black;
+        background:lightgray;
+        color: black;
+        padding: 6px;
+        box-shadow: 6px 6px 6px black;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-decoration: none;
+    }
+
+.bt3 {
+        border: 3px solid black;
+        background:lightgray;
+        color: black;
+        padding: 6px;
+        box-shadow: 6px 6px 6px black;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-decoration: none;
+    }
+    
+.bt4 {
+        border: 3px solid black;
+        background:lightgray;
+        color: black;
+        padding: 6px;
+        box-shadow: 6px 6px 6px black;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-decoration: none;
+    }
+
+.bt5 {
+        border: 3px solid black;
+        background:lightgray;
+        color: black;
+        padding: 6px;
+        box-shadow: 6px 6px 6px black;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-decoration: none;
+    }
+
+.bt6 {
+        border: 3px solid black;
+        background:green;
+        color: black;
+        padding: 6px;
+        box-shadow: 6px 6px 6px black;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-decoration: none;
+    }
+
+/* DISEÑO FOOTER */
+
+footer{
+    background: url(grama5.gif);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    height: auto;
+    color:white;
+    padding: 10px;
+    text-align: justify;
+}
+    
+h2{
+    font-weight: bold;
+    font-size: 140%;
+    background: lightskyblue;
+    border: solid 3px white;
+    width: 300px;
+    color:midnightblue;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+
+
+.container{
+    padding: 1%;
+    height: auto;
+    background: black;
+    color: black;
+    
+}
+
+form{
+    
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+
+}
+
+    /**  CONTENIDO CONTENEDOR  **/
+
+        .box_1{
+        
+            background: white;
+            width: 100%;
+            
+           
+        }
+        .box_2{
+        
+            background: white;
+            width: 100%;
+        }
+        .box_3{
+        
+            background: white;
+            width: 100%;
+        }
+        .box_4{
+        
+            background: white;
+            width: 100%;
+        }
+        .box_5{
+        
+            background: white;
+            width: 100%;
+        }
+        .box_6{
+        
+            background: white;
+            width: 100%;
+        }
+        .box_7{
+        
+            background: white;
+            width: 100%;
+        }
+        .box_8{
+        
+            background: white;
+            width: 100%;
+        }
+        .box_9{
+        
+            background: white;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            
+        }   
+            .box_9_1{
+                width: 50%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+            }
+                .box_9_1_1{
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                }
+                .box_9_1_2{
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                }
+
+            .box_9_2{
+                width: 50%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+            }
+                .box_9_2_1{
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                }
+                .box_9_2_2{
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                }
+        .box_10{
+        
+            background: white;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            
+        }
+            .box_10_1{
+                width: 50%;
+            }
+            .box_10_2{
+                width: 50%;
+            }
+
+        .box_11{
+        
+                background: white;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+        } 
+
+    /**  FIN CONTENIDO CONTENEDOR  **/
+
+label{
+            font-weight: bold;
+        }
+
+.label_form_bold{
+            font-weight: bold;
+        }
+.label_form_bold_underline{
+            font-weight: bold;
+            text-decoration: underline;
+        }
+.text_permiso{
+    text-align: justify;
+}        
+.label_form_normal{
+            font-weight: normal;
+        }
+
+.entrada_formulario{
+    width:500px;
+}
+
